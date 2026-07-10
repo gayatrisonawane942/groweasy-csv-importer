@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:5000/api";
+const API_URL = "https://groweasy-backend-9q19.onrender.com/api";
 
 export async function uploadCSV(file: File) {
   console.log("Uploading file:", file);
